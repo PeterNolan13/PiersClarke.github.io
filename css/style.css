@@ -212,8 +212,6 @@ CONTENTS:
 
 
 
-
-
 /* =========================================================
 01. General
 ============================================================ */
@@ -241,7 +239,7 @@ div, article, section, header, footer, nav, li {
 	visibility:hidden; /* For clearing */
 }
 body {
-	background:#E5EDF5;
+	background:#97A7C0; /*Change this to change color of at bottom of about me section*/)
 	color: #444;
 	font-size: 16px;
 	font-weight:300;
@@ -461,7 +459,8 @@ h2.pagetitle {
 
 .navbar-fixed-top .container {
 /* Uncomment to make nav expand full width */
- /*	width: auto; */
+ width: auto; 
+ padding-left: 9em;
 }
 .navbar .brand {
 	margin-left:0;
@@ -556,7 +555,7 @@ header .logo {
 
 /* --- Header slider --- */
 #header-wrapper.header-slider {
-	background: #444 url(../img/Iceland.jpg) no-repeat center center fixed;
+	background: #444 url(../img/HomePic.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -662,7 +661,7 @@ section.spacer {
 }
 
 .spacer.green,.section.green {
-	background: #3B4551;
+	background: #455F82;
 }
 
 .spacer.green,.section.green h4 {
@@ -684,7 +683,7 @@ section.spacer.bg2 {
 }
 
 section.spacer.bg3 {
-	background: url(../img/Rockies.jpg) 50% no-repeat fixed;
+	background: url(../img/quoteimage.jpg) 50% no-repeat fixed;
 	width:100%;
 	height: auto;
 	
