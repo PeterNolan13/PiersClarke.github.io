@@ -132,6 +132,10 @@ jQuery(document).ready(function($) {
 		controlNav: false,
 		smootheHeight:true,						
 		useCSS: false
+		//code I added below
+		var slider1 = $('#slider1').data('flexslider');
+		$('#slider1').height(600);
+		slider1.resize();
 	});
 });
 	
