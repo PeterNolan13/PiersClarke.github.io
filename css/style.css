@@ -596,6 +596,8 @@ header .logo {
 	-moz-box-shadow: none;
 	-o-box-shadow: none;
 	height: auto !important;
+	width: auto !important;
+	font-size: auto !important;
 }
 
 
