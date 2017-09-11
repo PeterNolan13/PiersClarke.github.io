@@ -39,6 +39,17 @@ CONTENTS:
 /* animation */
 @import url('animate.css');
 
+/*code I added*/
+
+#wrapper
+   {
+   
+   width: auto;
+   margin-right: auto;
+   margin-left: auto;
+   }
+
+  /*end code I added*/
 
 /*------------------------------------------------------------------*/
 /* Accordion & Toggle*/
